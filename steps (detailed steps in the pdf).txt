@@ -1,0 +1,17 @@
+README for DRIVERLESS CARS
+
+1 Install Anaconda Linux
+https://www.anaconda.com/distribution/
+
+2 set up virtual environment from "endgame.yml"
+enter the following command in anaconda terminal
+
+conda env create -f endgame.yml
+
+The following steps can be automated by making a "makefile" for your system.
+
+3 copy the video (or in case of live stream set the destination to) vehicle detection module.
+4 rename the video to "project_video".(the code currently accepts 1280X720 videos. You can resize your video using change_res.py)
+5 run the .ipynb file using terminal
+6 copy the "output_v5" video to lane detection module.
+7 run "main.py". Your output is saved as "output_v10".
